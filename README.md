@@ -1,8 +1,10 @@
-# AuDD
+># AuDD
+>
+>This repository is related to the lesson of Enterprise Network, 3rd Bachelor at EPHEC Louvain-la-Neuve.
+>
+>It consists of a week-long network security and administration project.
 
-This repository is related to the lesson of Enterprise Network, 3rd Bachelor at EPHEC Louvain-la-Neuve.
-
-It consists of a week-long network security and administration project.
+![](doc/AuDD-logo.png)
 
 ## The project
 
@@ -21,4 +23,13 @@ You have _"carte blanche"_ to take all the initiatives that seem appropriate to 
 
 Our team is composed of 20 members and we represent AuDD (IT services), the first of the two groups of this project.
 
-A convention has been written and is available [here](doc/AuDD-charte.pdf)
+A convention has been written in French and is available [here](doc/AuDD-charte.pdf).
+
+## The repository
+
+* [Documents](doc/): Our convention, logo and teacher files we received.
+* [Mail](mail/): All files related for the set up of a mail service.
+* [Security](security/): the name says it all ;)
+* [Services](services/): same as previous ;)
+* [Web](web/): All related files for the showcase website.
+* [Reports](report/): All related files about reports, choice of implementations, notes, schemes, a brief daily summary and the timesheet.
