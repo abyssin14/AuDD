@@ -627,7 +627,7 @@ font-family: Arial;
 
 
 .image-bg .hero-section {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../images/image-bg.jpg) no-repeat center center;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../images/image-bg1.png) no-repeat center center;
 	background-size: cover;
 	padding: 150px 0 100px 0;
 }
@@ -1334,7 +1334,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .feature-sub {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../images/image-bg.jpg) no-repeat center center;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../images/image-bg1.png) no-repeat center center;
 	background-size: cover;
 	padding: 150px 0 150px 0;
 }
@@ -1448,6 +1448,13 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .split-image img {
 	margin: 0 auto;
+	margin-top: 20%;
+}
+
+.split-image1 img {
+	margin: 0 auto;	
+	margin-top: 12%;
+
 }
 
 .split-content {
