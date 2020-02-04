@@ -1,0 +1,29 @@
+en
+conf t
+
+hostname SW-12
+
+ip default-gateway 172.16.20.1
+
+vtp domain audd.local
+vtp password auddAudd
+vtp mode client
+
+
+int vlan 20
+ip add 172.16.20.4 255.255.255.0
+no shut
+exit
+
+int range f0/2-3
+switchport mode trunk
+switchport trunk native vlan 20
+no shut
+channel-protocol lacp
+channel-group 1 mode active
+exit
+
+int f0/1
+switchport mode trunk
+switchport trunk native vlan 20
+no shut
