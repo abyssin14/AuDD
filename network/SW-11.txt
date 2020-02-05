@@ -3,14 +3,24 @@ conf t
 
 hostname SW-11
 
+vtp mode server
+vtp domain kyoto.local
+vtp password auddAudd
+
 ip default-gateway 172.16.20.1
 
-vtp domain audd.local
-vtp password auddAudd
-vtp mode client
-
+vlan 2 
+name Administration
+vlan 10
+name Formation
+vlan 20
+name IT
+vlan 30
+name Vente
+exit
 
 int vlan 20
+description "Vlan IT"
 ip add 172.16.20.3 255.255.255.0
 no shut
 exit
@@ -27,3 +37,15 @@ int f0/1
 switchport mode trunk
 switchport trunk native vlan 20
 no shut
+exit
+
+int range f0/13
+switchport mode trunk
+no shut
+exit
+
+int range f0/14-15
+switchport mode trunk
+switchport trunk native vlan 20
+no shut
+exit
