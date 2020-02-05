@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AuDD</title>
+<link rel="icon" href="images/imageAuDD2.png" type="image/png" sizes="16x16">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AuDD">
+<meta name="keywords" content="AuDD">
+<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" media="all" />
+<link href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/animate.css">
+<!-- Resource style -->
+<link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
+<link rel="stylesheet" href="{{ asset('css/owl.theme.css') }}">
+<link rel="stylesheet" href="{{ asset('css/ionicons.min.css') }}">
+<!-- Resource style -->
+<link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<div class="wrapper">
+  <div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container"> 
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand page-scroll" href="#main"><img src="images/Odd.PNG" width="80" height="30" alt="iLand" /></a> </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a class="page-scroll" href="#main">Acceuil</a></li>
+            <li><a class="page-scroll" href="#features">Projet</a></li>
+            <li><a class="page-scroll" href="#review-section">Equipe</a></li>
+            <li><a class="page-scroll" href="#pricing"> autre </a></li>
+            <li><a class="page-scroll" href="#contact">Contact</a></li>
+            <li><a class="page-scroll" href="{{ url('login') }}">Connexion</a></li>
+            <li><a class="page-scroll" href="{{ url('register') }}">Inscription</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid -->
+  <!-- /.container-fluid -->
+
+  <div class="main app form" id="main"><!-- Main Section-->
+    <div class="hero-section">
+      <div class="container nopadding">
+        <div class="col-md-5"> <img class="img-responsive wow fadeInUp" data-wow-delay="0.1s" src="images/imageAuDD.png" alt="App" /> </div>
+        <div class="col-md-7">
+          <div class="hero-content">
+            <h1 class="wow fadeInUp" data-wow-delay="0.1s">AuDD site web </h1>
+            <p class="wow fadeInUp" data-wow-delay="0.2s"> AuDD site web vitrine pour le cours projet entreprise EPHEC 3TI. </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Client Section -->
+    <div class="client-section">
+      <div class="container text-center">
+        <div class="clients owl-carousel owl-theme">
+          <div class="single"> <img src="images/imageAuDDnoir.png" alt="Image" /> </div>
+          <div class="single"> <img src="images/imageAuDDnoir.png" alt="Image" /> </div>
+          <div class="single"> <img src="images/imageAuDDnoir.png" alt="Image" /> </div>
+          <div class="single"> <img src="images/imageAuDDnoir.png" alt="Image" /> </div>
+          <div class="single"> <img src="images/imageAuDDnoir.png" alt="Image" /> </div>
+          <div class="single"> <img src="images/imageAuDDnoir.png" alt="Image" /> </div>
+        </div>
+      </div>
+    </div>
+    <div class="app-features text-center" id="features">
+      <div class="container">
+        <h1 class="wow fadeInDown" data-wow-delay="0.1s">Vue globale du Projet</h1>
+        <p class="wow fadeInDown" data-wow-delay="0.2s"> Ensemble des services proposés par AuDD,
+          formations en langue et informatique disponible pour tous</p>
+        <div class="col-md-4 features-left">
+          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.2s">
+            <div class="icon"> <i class="ion-ios-analytics-outline"></i> </div>
+            <div class="feature-single">
+              <h1>Suivi constant</h1>
+              <p> Tout au long de votre formation un professeur suivra votre avancée. </p>
+            </div>
+          </div>
+          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.3s">
+            <div class="icon"> <i class="ion-ios-briefcase-outline"></i> </div>
+            <div class="feature-single">
+              <h1>Ouverture au monde professionnel</h1>
+              <p> Nos formations vous fourniront toutes les compétences requises afin de travailler dans un milieu d'entreprise. </p>
+            </div>
+          </div>
+          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.4s">
+            <div class="icon"> <i class="ion-ios-chatboxes-outline"></i> </div>
+            <div class="feature-single">
+              <h1>Communication</h1>
+              <p> Intéraction possible avec des professionnels du domaine en question. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 wow fadeInDown" data-wow-delay="0.5s"> <img class="img-responsive" src="images/imageAuDD3.png" alt="App" /> </div>
+        <div class="col-md-4 features-left">
+          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.6s">
+            <div class="icon"> <i class="ion-ios-cloud-download-outline"></i> </div>
+            <div class="feature-single">
+              <h1>Cours Téléchargeable</h1>
+              <p> Toute les formations sont téléchargeable afin de pouvoir vous améliorez ou que vous soyez. </p>
+            </div>
+          </div>
+          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.7s">
+            <div class="icon"> <i class="ion-ios-copy-outline"></i> </div>
+            <div class="feature-single">
+              <h1>Formations en ligne</h1>
+              <p> Nos formations sont disponibles en format PDF afin que vous puissiez échangez vos correctifs avec d'autres participants. </p>
+            </div>
+          </div>
+          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.8s">
+            <div class="icon"> <i class="ion-ios-game-controller-b-outline"></i> </div>
+            <div class="feature-single">
+              <h1>Apprentisage divertissant</h1>
+              <p>Approche unique de l'apprentissage via des quizzs et des mini-jeux. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="split-features">
+      <div class="col-md-6 nopadding">
+        <div class="split-image"> <img class="img-responsive wow fadeIn" src="images/informatique.jpg" alt="Image" /> </div>
+      </div>
+      <div class="col-md-6 nopadding">
+        <div class="split-content">
+          <h1 class="wow fadeInUp">Formation en ligne : Informatique</h1>
+          <p class="wow fadeInUp"> Nous proposons des formations sur le développement applicatif et web dans différents langages de programmation.</p>
+          <ul class="wow fadeInUp">
+            <li>Développement web</li>
+            <li>Développement applicatif</li>
+            <li>Développement application mobile</li>
+            <li>Formation sécurité réseau</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+     <div class="split-features2">
+
+      <div class="col-md-6 nopadding">
+        <div class="split-content second">
+          <h1 class="wow fadeInUp">Formation en ligne : Langue</h1>
+          <p class="wow fadeInUp"> Nous proposons des formations dans différentes langues pour vous permettre de développer vos compétences</p>
+          <ul class="wow fadeInUp">
+            <li>Anglais</li>
+            <li>Allemand</li>
+            <li>Espagnol</li>
+            <li>Russe </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 nopadding">
+        <div class="split-image1"> <img class="img-responsive wow fadeIn" src="images/langue.jpg" alt="Image" /> </div>
+      </div>
+    </div>
+
+    </div>
+    <div id="review-section" class="review-section">
+      <div class="container">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="reviews owl-carousel owl-theme">
+            <div class="review-single"><img class="img-circle" src="images/melvin.jpg" alt="Client Testimonoal" />
+              <div class="review-text wow fadeInUp" data-wow-delay="0.2s">
+                <p></p>
+                <h3>- CAMPOS CASARES Melvin</h3>
+                <h3>Chef de projet + porte parole</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/david.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- AIRES David</h3>
+                <h3>Responsable sécurité réseau</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/manuella.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- NDAMTANG Manuelle Stevia</h3>
+                <h3>Service mail + ressource informatique</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/ibra.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- CONDE Ibrahima</h3>
+                <h3>Sécurité physique</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/aleexx.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- LEFÈVRE Alexandre</h3>
+                <h3>Développement web</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/timothy.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- Gilles Timothy</h3>
+                <h3>Développement web</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/tristan.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- PESTIAUX Tristan</h3>
+                <h3>Wifi</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/brieuc.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- SAILLEZ Brieuc</h3>
+                <h3>Administrateur réseau</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/nicolas.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- VIROUX Nicolas</h3>
+                <h3>Infrastructure réseau</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/jean.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- CORNIL Jean</h3>
+                <h3>Responsable rangement</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/hymed.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- BOUSSAKLATAN Hymed</h3>
+                <h3>Service déployement</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/adrien.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- CHELLÉ Adrien</h3>
+                <h3>Scrible</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/quentin.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- LEBRUN Quentin</h3>
+                <h3>Sécurité réseau</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/nathan.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- HENRY Nathan</h3>
+                <h3>Service déployement</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/mathias.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- GASSMANN Mathias</h3>
+                <h3>Administrateur réseau</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/ludo.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- VAN DEN DORPE Ludo</h3>
+                <h3>Wifi</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/filip.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- SHATSKIY Filipp</h3>
+                <h3>Infrastructure réseau</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/brian.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- HANQUET Brian</h3>
+                <h3>Wifi</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/thibault.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- HERMANT Thibaut</h3>
+                <h3>Wifi</h3>
+              </div>
+            </div>
+            <div class="review-single"><img class="img-circle" src="images/clement.jpg" alt="Client Testimonoal" />
+              <div class="review-text">
+                  <p></p>
+                <h3>- MIESSE Clément</h3>
+                <h3>Assistant chef de projet</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pricing" class="pricing-section text-center">
+      <div class="container">
+        <div class="col-md-12 col-sm-12 nopadding">
+          <div class="pricing-intro">
+            <h1 class="wow fadeInUp" data-wow-delay="0s">Formations</h1>
+            <p class="wow fadeInUp" data-wow-delay="0.2s">Nous proposons trois plans tarifaires différents : 1 gratuit afin de découvrir notre plateforme. <br class="hidden-xs"> Une formation en langue ainsi qu'une en informatique à 10 € par mois. </p>
+          </div>
+          <div class="col-sm-4">
+            <div class="table-left wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"> <i class="ion-ios-paperplane-outline"></i> </div>
+              <div class="pricing-details">
+                <h2>Essai Gratuit</h2>
+                <span>Gratuit</span>
+                <ul>
+                  <li>- Cours langue 1 semaine </li>
+                  <li>- Cours programmation 1 semaine </li>
+                  <li>- 1 Test corrigé</li>
+                  <li>- 3 Test disponibles</li>
+                </ul>
+                <button class="btn btn-primary btn-action btn-fill">Tester !</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="table-right table-center wow fadeInUp" data-wow-delay="0.6s">
+              <div class="icon"> <i class="ion-ios-analytics-outline"></i> </div>
+              <div class="pricing-details">
+                <h2>Formation en langue</h2>
+                <span>€10</span>
+
+                <ul>
+                  <li>- 1 Mois de formation</li>
+                  <li>- 4 langues : Anglais,Russe,Espagnol et Allemand</li>
+                  <li>- 3 Test corrigés par semaine</li>
+                  <li>- Plus de 100 exercices ainsi que leur correctifs</li>
+                </ul>
+                <button class="btn btn-primary btn-action btn-fill">Acheter</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
+              <div class="icon"> <i class="ion-ios-color-wand-outline"></i> </div>
+              <div class="pricing-details">
+                <h2>Formation développement</h2>
+                <span>€10</span>
+                <ul>
+                  <li>- 1 Mois de formation</li>
+                  <li>- Dev Applicatif, Dev app Mobile,</li>
+                  <li>- 3 Test corrigés par semaine</li>
+                  <li>- Plus de 100 exercices ainsi que leur correctifs</li>
+                </ul>
+                <button class="btn btn-primary btn-action btn-fill">Acheter</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subscribe Form -->
+    <div class="cta-sub no-color">
+      <div class="container">
+        <div class="cta-inner">
+          <h1 class="wow fadeInUp" data-wow-delay="0s">Pour un monde remplis de connaissances <i class="ion-heart"></i> </h1>
+          <p class="wow fadeInUp" data-wow-delay="0.2s"> Nous nous donnons comme objectif de fournir une formation adaptée pour tous. </p>
+
+        <!-- subscribe message -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+      <div class="container">
+        <div class="col-md-7"> <img src="images/Odd.PNG" width="80" height="30" alt="Image" />
+          <p> AuDD est une plateforme d'apprentissage qui a pour objectif le développement de vos connaissances en informatique et en langue.  </p>
+          <div class="footer-text">
+            <p> Copyright © 2020 AuDD. All Rights Reserved. Made with <i class="ion-heart"></i> by <a href="http://www.designstub.com/"><a>des bros</a></p>
+          </div>
+        </div>
+        <div class="col-md-5">
+            <h1>Contactez Nous</h1>
+            <p> Contactez notre support client 24/7 si vous avez des questions<br class="hidden-xs">
+              Nous vous aiderons avec plaisir. </p>
+            <a href="mailto:support@gmail.com">contact@audd.com</a> </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll To Top -->
+
+    <a id="back-top" class="back-to-top page-scroll" href="#main"> <i class="ion-ios-arrow-thin-up"></i> </a>
+
+    <!-- Scroll To Top Ends-->
+
+  </div>
+  <!-- Main Section -->
+</div>
+<!-- Wrapper-->
+
+<!-- Jquery and Js Plugins -->
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script src="js/jquery.subscribe.js"></script>
+</body>
+</html>
