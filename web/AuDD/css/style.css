@@ -1858,6 +1858,20 @@ padding: 120px 10px 50px 350px;
   border-color: #927f54;
 }
 
+.button {
+	font-size: 14px;
+  font-family: Open Sans;
+	font-weight: 400;
+	text-transform: capitalize;
+	padding-top: 25px;
+	letter-spacing: 1px;
+	height: 80px;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+	-webkit-backface-visibility: hidden;
+}
 
 .error_message {
 	color:#fc6e51;
