@@ -1,0 +1,5 @@
+user = admin
+password = 123456789Ephec
+hosts = 192.168.60.251
+dbname = Audd
+query = SELECT destination FROM virtual_aliases WHERE source='%s'

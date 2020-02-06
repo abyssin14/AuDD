@@ -1,0 +1,2 @@
+funndeh.com           funndeh.com:dkim:/etc/opendkim/opendkim.key
+mail.funndeh.com      mail.funndeh.com:dkim:/etc/opendkim/opendkim.key

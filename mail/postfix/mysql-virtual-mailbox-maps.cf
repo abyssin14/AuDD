@@ -1,0 +1,5 @@
+user = admin
+password = 123456789Ephec
+hosts = 192.168.60.251
+dbname = Audd
+query = SELECT 1 FROM virtual_users WHERE email='%s'
