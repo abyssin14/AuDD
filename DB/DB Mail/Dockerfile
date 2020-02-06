@@ -8,9 +8,9 @@ MAINTAINER "m.ndamtang@students.ephec.be"
 
 # Password definition
 
-RUN ["/bin/bash", "-c", "debconf-set-selections <<< 'mysql-server mysql-server/root_password password ephec_audd'"]
+RUN ["/bin/bash", "-c", "debconf-set-selections <<< 'mysql-server mysql-server/root_password password '"]
 
-RUN ["/bin/bash", "-c", "debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password ephec_audd'" ]
+RUN ["/bin/bash", "-c", "debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password '" ]
 
 # Installation et mise a jour
 
