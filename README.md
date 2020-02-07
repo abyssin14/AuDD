@@ -33,3 +33,13 @@ A convention has been written in French and is available [here](doc/AuDD-charte.
 * [Services](services/): same as previous ;)
 * [Web](web/): All related files for the showcase website.
 * [Reports](report/): All related files about reports, choice of implementations, notes, schemes, a brief daily summary and the timesheet.
+
+## Our network schemes
+
+### Physical network scheme
+
+![Physical network scheme of AuDD](physical-network-scheme.png)
+
+### Logical network scheme
+
+![Logical network scheme of AuDD](logical-network-scheme.png)
