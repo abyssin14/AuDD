@@ -38,8 +38,8 @@ A convention has been written in French and is available [here](doc/AuDD-charte.
 
 ### Physical network scheme
 
-![Physical network scheme of AuDD](physical-network-scheme.png)
+![Physical network scheme of AuDD](report/physical-network-scheme.png)
 
 ### Logical network scheme
 
-![Logical network scheme of AuDD](logical-network-scheme.png)
+![Logical network scheme of AuDD](report/logical-network-scheme.png)
